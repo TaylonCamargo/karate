@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um pouco sobre o karate mundial olímpico"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../img/logo-cabecalho.png"
+      type="image/x-icon"
+    />
+    <title>Taylon Camargo</title>
+  </head>
+  <body id="conteudo-contact">
+    <header class="cabecalho">
+      <a href="../src/index.html">
+        <img
+          class="img-cabecalho"
+          src="../img/logo-cabecalho.png"
+          alt="Logo de um carateca "
+          height="75px"
+          width="80px"
+        />
+      </a>
+      <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="../src/index.html">Home</a>
+        <a class="cabecalho-menu-item" href="../src/history-karate.html"
+          >History of Karate</a
+        >
+        <a class="cabecalho-menu-item" href="../src/about-wkf.html"
+          >About WKF</a
+        >
+        <a class="cabecalho-menu-item" href="../src/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="conteudo">
+      <div>
+        <h1 id="titulo" style="text-align: center">Cadastro de Karate</h1>
+
+        <br />
+      </div>
+
+      <form class="formulario-contato">
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="nome" required />
+          </div>
+
+          <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome:</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required />
+          </div>
+        </fieldset>
+
+        <div class="campo">
+          <label for="email"><strong>Email:</strong></label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="campo">
+          <label><strong>Você já é praticante de Karate ?</strong></label>
+          <label>
+            <input type="radio" name="opcaoSim" value="sim" /> Sim
+          </label>
+          <label>
+            <input type="radio" name="opcaoNao" value="nao" /> Não
+          </label>
+        </div>
+
+        <div>
+          <label for="senioridade"
+            ><strong>Senioridade de sua faixa</strong></label
+          >
+          <select id="senioridade">
+            <option selected disabled value="">Escolha sua faixa</option>
+            <option value=""></option>
+            <option value="">Branca</option>
+            <option value="">Amarela</option>
+            <option value="">Laranja</option>
+            <option value="">Bordô</option>
+            <option value="">Bordô Ponta Preta</option>
+            <option value="">Verde</option>
+            <option value="">Azul</option>
+            <option value="">Roxa</option>
+            <option value="">Marrom</option>
+            <option value="">Marrom Ponta Preta</option>
+            <option value="">Preta</option>
+          </select>
+        </div>
+        <br />
+        <fieldset class="grupo">
+          <div id="check">
+            <label><strong>Selecione o seu estilo de karate</strong></label
+            ><br /><br />
+            <input
+              type="checkbox"
+              name="shitoryu"
+              id="shitoryu"
+              value="Shito-Ryu"
+            />
+            <label for="shitoryu">Shito-Ryu</label>
+
+            <input
+              type="checkbox"
+              name="shotokan"
+              id="shotokan"
+              value="Shotokan"
+            />
+            <label for="shotokan">Shotokan</label>
+
+            <input
+              type="checkbox"
+              name="gojuryu"
+              id="gojuryu"
+              value="Goju-Ryu"
+            />
+            <label for="gojuryu">Goju-Ryu</label>
+
+            <input
+              type="checkbox"
+              name="wadoryu"
+              id="wadoryu"
+              value="Wado-Ryu"
+            />
+            <label for="wadoryu">Wado-Ryu</label>
+
+            <input
+              type="checkbox"
+              name="kyokushin"
+              id="kyokushin"
+              value="Kyokushin"
+            />
+            <label for="kyokushin">Kyokushin</label>
+
+            <input
+              type="checkbox"
+              name="budokan"
+              id="budokan"
+              value="Budokan"
+            />
+            <label for="budokan">Budokan</label>
+          </div>
+        </fieldset>
+
+        <div>
+          <br />
+          <label><strong>Escreva sua dúvida abaixo.</strong></label
+          ><br />
+          <textarea
+            class="texto-area-formulario"
+            rows="16"
+            style="width: 28em"
+            id="descricao"
+            nome="descricao"
+            placeholder=" Digite aqui..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="botao">Enviar dúvida</button>
+      </form>
+
+      <h2 id="sucessoFormulario"></h2>
+    </main>
+
+    <footer class="rodape-contact">
+      <p class="rodape-descricao-contact">
+        <strong>Created By Taylon Camargo</strong>
+      </p>
+      <a href="../src/index.html"
+        ><img
+          src="../img/rodape-japao.png"
+          alt="Logo de um portal japonês"
+          class="rodape-img"
+      /></a>
+      <a
+        href="https://br.linkedin.com/in/taylon-camargo-953090202?trk=people-guest_people_search-card"
+        target="_blank"
+      >
+        <img
+          src="../img/rodape-linkedin.png"
+          alt="logo-linkedin"
+          class="rodape-linkedin"
+        />
+      </a>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

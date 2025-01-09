@@ -1,0 +1,448 @@
+/*aba home*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+body {
+  font-size: 100%;
+  background-color: rgb(22, 18, 18);
+  color: whitesmoke;
+}
+
+
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: rgba(184, 24, 24, 0.863);
+  border-bottom: 2px solid white;
+}
+
+
+
+.img-cabecalho {
+  height: 72px;
+}
+
+
+
+.cabecalho-menu {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+
+.cabecalho-menu-item {
+  font-family: sans-serif;
+  font-weight: 55px;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-bottom: 2px solid white;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+/*1024*/
+@media(max-width: 1030px) {
+  .conteudo-principal{
+    margin-left: 2em;
+  };
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.conteudo-principal-titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: rgba(184, 24, 24, 0.863);
+  padding-top: 35px;
+}
+
+.conteudo-principal-descricao {
+  font-family: Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.conteudo-principal-botao-historia {
+  background-color: rgba(184, 24, 24, 0.863);
+  color: whitesmoke;
+  height: 40px;
+  width: 180px;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.conteudo-principal-botao-historia:hover {
+  background-color: black;
+  color: rgb(179, 138, 36);
+  transition: 0.3s;
+}
+
+.conteudo-principal-img {
+  display: flex;
+  padding-top: 25px;
+  height: 148px;
+  width: 220px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.conteudo-secundario-titulo {
+  text-align: center;
+  font-weight: 600;
+  font-size: 42px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.conteudo-secundario-img {
+  display: block;
+  justify-content: center;
+  height: 375px;
+  width: 370px;
+}
+.conteudo-secundario-descricao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Tahoma, sans-serif;
+  padding-bottom: 50px;
+}
+
+.rodape {
+  gap: 10px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.rodape-descricao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: monospace;
+  padding-bottom: 12px;
+}
+.rodape-img {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.rodape-linkedin {
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*aba history of karate*/
+.conteudo1-titulo-historia-karate {
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.conteudo1-primeira-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.conteudo1-titulo-origem-karate {
+  text-align: center;
+  font-weight: 800;
+  font-size: 23px;
+  color: rgb(179, 138, 36);
+}
+
+.conteudo1-origem-karate-descricao {
+  text-align: justify;
+  font-weight: 400;
+  margin: 42px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo1-bandeira-japao {
+  display: block;
+  margin: 0 auto;
+  height: 310px;
+  width: 310px;
+}
+
+.conteudo2-primeira-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.conteudo2-titulo-origem-karate {
+  text-align: center;
+  font-weight: 800;
+  font-size: 23px;
+  color: rgb(179, 138, 36);
+}
+
+.conteudo2-origem-karate-descricao {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 17px 0px 17px;
+}
+
+.conteudo2-karate-img {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  padding-top: 20px;
+}
+
+.conteudo3-primeira-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.conteudo3-titulo-olimpiada {
+  text-align: center;
+  font-weight: 800;
+  font-size: 23px;
+  color: rgb(179, 138, 36);
+}
+
+.conteudo3-descricao-olimpiada {
+  text-align: justify;
+  margin: 42px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 17px 0px 17px;
+}
+
+.conteudo3-samurai {
+  display: block;
+  margin: 0 auto;
+}
+
+.botao-topo {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: rgba(194, 16, 16, 0.829);
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/*about wkf*/
+.conteudo-titulo-wkf {
+  margin-top: 30px;
+  font-family: sans-serif;
+  color: rgb(179, 138, 36);
+}
+
+.conteudo-wkf-img {
+  display: block;
+  margin: 0 auto;
+  height: 390px;
+  width: 340px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.conteudo-wkf-descricao {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 42px;
+}
+
+.botao-url-wkf {
+  display: block;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  height: 40px;
+  width: 250px;
+  text-decoration: none;
+  border-radius: 12px;
+  background-color: rgb(19, 16, 11);
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+
+  border-bottom: solid 2px whitesmoke;
+  border-top: solid 2px whitesmoke;
+  border-left: solid 2px whitesmoke;
+  border-right: solid 2px whitesmoke;
+}
+
+.botao-url-wkf:hover {
+  background-color: rgba(194, 16, 16, 0.829);
+  color: white;
+}
+.rodape-about-wkf {
+  border-top: solid 2px whitesmoke;
+}
+
+.rodape-descricao {
+  margin-top: 25px;
+}
+
+/*aba contact*/
+
+#titulo {
+  display: flex;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 0.1%;
+  justify-content: center;
+  margin-top: 0.6em;
+  margin-bottom: 0.8em;
+}
+
+fieldset {
+  border: 0;
+}
+
+#conteudo-contact {
+  background-color: black
+  font-family: sans-serif;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+form {
+  margin-left: 40%;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: whitesmoke;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.botao {
+  margin-left: 10%;
+  font-size: 1.4em;
+  background-color: green;
+  border: 0;
+  margin-top: 7px;
+  margin-bottom: 12px;
+  color: black;
+  padding: 8px;
+  box-shadow: 2px green;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.rodape-contact {
+  margin-top: 0;
+}
+
+.rodape-descricao-contact {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+.botao:hover {
+  background: rgba(184, 24, 24, 0.863);
+  box-shadow: red;
+  color: whitesmoke;
+}
+
+#check {
+  display: inline-block;
+}
+
+@media(max-width:770px){
+.formulario-contato {
+  padding-right: 230px;
+}
+
+}
